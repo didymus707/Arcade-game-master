@@ -10,7 +10,8 @@ This game contains three javascript file which are the app.js that contains the 
 
 ## How It Runs
 
-### The app.js contians the following;......
+### The app.js contians the following;
+***
 
 + An enemy function is created which is used in instantiating our enemy objets
 + A protoype was also created which is used for updating the movement of our enemies in the canvas and when they are coming back in after going out

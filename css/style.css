@@ -1,3 +1,43 @@
 body {
     text-align: center;
 }
+
+h1 {
+  color: #E5A719FF;
+}
+
+.hide{
+    display: none;
+}
+
+.modal{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.8);
+}
+
+.modal-box{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    width: 70%;
+    max-width: 400px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.17) 0 7px 20px rgba(0,0,0,0.17);
+    border-radius: 5px;
+    transform: translate(-50%, -70%);
+}
+
+
+.restart{
+    padding: 10px;
+    height: 5%;
+    margin: 5px 0 0px 4px;
+    background-color: #72878C;
+    border-radius: 5px;
+}

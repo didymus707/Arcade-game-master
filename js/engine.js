@@ -23,7 +23,7 @@ var Engine = (function(global) {
         canvas = doc.createElement('canvas'),
         ctx = canvas.getContext('2d'),
         lastTime;
-
+        
     canvas.width = 505;
     canvas.height = 606;
     doc.body.appendChild(canvas);
